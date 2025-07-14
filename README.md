@@ -93,11 +93,11 @@ This connects to your **tax-mcp-server**, which provides two tools:
 The final response is automatically formatted:
 
 ```
-The tax value for January is 535.78 Georgian Lari.
-Income = [2000 USD, 10715.60 GEL],
-Currency exchange rate = 2.6789,
-Tax Rate = 20,
-Date of income = 2024-01-15.
+The tax value for the June is 273.06 Georgian Lari. 
+Income = [1000 USD, 2730.60 Georgian Lari], 
+Currency exchange rate = 2.7306, 
+Tax Rate = 10,
+Date of income = 2025-06-12.
 ```
 
 ---
@@ -113,16 +113,16 @@ Date of income = 2024-01-15.
 
 **Example Call:**
 ```
-GET /tax?message=I earned 1500 dollars on 2024-02-10 at 15 percent tax.
+GET /tax?message=My income is 1000 usd. I received this amount on 2025-06-12. My tax rate is 10 percent
 ```
 
 **Example Response:**
 ```
-The tax value for February is 402.45 Georgian Lari.
-Income = [1500 USD, 8049.00 GEL],
-Currency exchange rate = 2.6830,
-Tax Rate = 15,
-Date of income = 2024-02-10.
+The tax value for the June is 273.06 Georgian Lari. 
+Income = [1000 USD, 2730.60 Georgian Lari], 
+Currency exchange rate = 2.7306, 
+Tax Rate = 10,
+Date of income = 2025-06-12.
 ```
 
 ---
